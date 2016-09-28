@@ -1,0 +1,3 @@
+vaartland_helper_homepage:
+    path:     /
+    defaults: { _controller: VaartlandHelperBundle:Default:index }
