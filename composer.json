@@ -1,0 +1,30 @@
+{
+    "name" : "vaartland/helperbundle",
+    "description" : "Vaartland helper bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "helper",
+        "email" : "j.visser@vinq-it.nl"
+    }],
+    "keywords" : [
+        "helper bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Vaartland\\HelperBundle" : ""
+        }
+    },
+    "target-dir" : "Vaartland/HelperBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "0.1-dev"
+        }
+    }
+}
